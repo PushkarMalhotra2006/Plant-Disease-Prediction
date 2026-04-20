@@ -1,0 +1,52 @@
+{
+    "Apple___Apple_scab": "A fungal disease causing dark, scabby lesions on leaves and fruit.",
+    "Apple___Black_rot": "Fungal disease causing black rot on fruits and leaf spots.",
+    "Apple___Cedar_apple_rust": "Causes orange spots on leaves due to fungal infection.",
+    "Apple___healthy": "The plant is healthy with no visible disease.",
+
+    "Blueberry___healthy": "The plant is healthy with no visible disease.",
+
+    "Cherry_(including_sour)___Powdery_mildew": "Fungal disease causing white powdery growth on leaves.",
+    "Cherry_(including_sour)___healthy": "The plant is healthy with no visible disease.",
+
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": "Causes gray lesions on leaves, reducing yield.",
+    "Corn_(maize)___Common_rust_": "Produces reddish-brown pustules on leaves.",
+    "Corn_(maize)___Northern_Leaf_Blight": "Causes long gray-green lesions on leaves.",
+    "Corn_(maize)___healthy": "The plant is healthy with no visible disease.",
+
+    "Grape___Black_rot": "Causes black spots on leaves and shriveled fruits.",
+    "Grape___Esca_(Black_Measles)": "Fungal disease causing dark spots and leaf discoloration.",
+    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": "Causes brown lesions on leaves.",
+    "Grape___healthy": "The plant is healthy with no visible disease.",
+
+    "Orange___Haunglongbing_(Citrus_greening)": "A bacterial disease causing yellowing leaves and bitter fruit.",
+
+    "Peach___Bacterial_spot": "Causes dark spots on leaves and fruit.",
+    "Peach___healthy": "The plant is healthy with no visible disease.",
+
+    "Pepper,_bell___Bacterial_spot": "Causes dark, water-soaked spots on leaves and fruit.",
+    "Pepper,_bell___healthy": "The plant is healthy with no visible disease.",
+
+    "Potato___Early_blight": "Causes concentric rings on leaves and reduces yield.",
+    "Potato___Late_blight": "A severe disease causing rapid decay of leaves and tubers.",
+    "Potato___healthy": "The plant is healthy with no visible disease.",
+
+    "Raspberry___healthy": "The plant is healthy with no visible disease.",
+    "Soybean___healthy": "The plant is healthy with no visible disease.",
+
+    "Squash___Powdery_mildew": "Causes white powdery patches on leaves.",
+
+    "Strawberry___Leaf_scorch": "Causes browning and drying of leaf edges.",
+    "Strawberry___healthy": "The plant is healthy with no visible disease.",
+
+    "Tomato___Bacterial_spot": "Causes small dark spots on leaves and fruit.",
+    "Tomato___Early_blight": "Causes dark spots with concentric rings on leaves.",
+    "Tomato___Late_blight": "Causes rapid leaf decay and fruit rot.",
+    "Tomato___Leaf_Mold": "Fungal disease causing yellow spots and mold growth.",
+    "Tomato___Septoria_leaf_spot": "Causes small circular spots on leaves.",
+    "Tomato___Spider_mites Two-spotted_spider_mite": "Caused by mites, leading to yellow speckling on leaves.",
+    "Tomato___Target_Spot": "Causes circular spots with dark centers.",
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": "Virus causing yellowing and curling of leaves.",
+    "Tomato___Tomato_mosaic_virus": "Virus causing mottled leaves and reduced growth.",
+    "Tomato___healthy": "The plant is healthy with no visible disease."
+}
