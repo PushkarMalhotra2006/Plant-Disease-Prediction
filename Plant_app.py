@@ -41,9 +41,8 @@ try:
     print("\n✅ SUCCESS: Model loaded and compiled!")
     print("You can now proceed to model.predict()")
 except Exception as e:
-    print(f"\n❌ Final hurdle: {e}")
+    print(f"\n❌ Error occured")
 
-import gradio as gr
 import numpy as np
 from PIL import Image
 import json
@@ -55,8 +54,8 @@ def preprocess_image(img):
 
     return img
 
-def predict_image(img_path):
-  img = preprocess_image(img_path)
+def predict_image(img):
+  img = preprocess_image(img)
 
   pred = model.predict(img)
   pred_class = np.argmax(pred)
@@ -82,12 +81,20 @@ def clean_output(class_name):
 
   return plant, disease, info
 
-def display_prediction(img_path):
-    class_name = predict_image(img_path)
+def display_prediction(img):
+    class_name = predict_image(img)
 
     plant,disease,info = clean_output(class_name)
 
-    return f"Plant: {plant}\nDisease: {disease}\nInfo: {info}"
+    return f"""
+    <div style="font-size:18px; line-height:1.6; padding:10px;">
+        <h1 style = "text-align:left; margin-bottom=10px">Prediction Output 👇</h1>
+        <br>
+        <h2>🌿 Plant: <b>{plant}</b></h2>
+        <h2>🦠 Disease: <b>{disease}</b></h2>
+        <p><b>📖 Information:</b>{info}</p>
+    </div>
+    """
 
 with open("C:\Coding\AIML\DL Projects\Plant-Disease-Prediction\Plant_class_mappings.json", "r") as f:
     index_to_class = json.load(f)
@@ -97,5 +104,56 @@ print("file loaded")
 
 
 
-img = Image.open("C:\Coding\AIML\DL Projects\Plant-Disease-Prediction\grape leaf blight 2.webp")
-print(display_prediction(img))
+#img = Image.open("C:\Coding\AIML\DL Projects\Plant-Disease-Prediction\grape leaf blight 2.webp")
+#print(display_prediction(img))
+
+
+
+import gradio as gr
+
+with gr.Blocks(title="Plant Disease Detection",css="""
+#output_box {
+    min-width: 600px;
+    font-size: 20px;
+}
+""") as app:
+
+    gr.Markdown("""
+<div style="text-align: center; width: 100%;">
+<h1>🌿 Plant Disease Detection</h1>
+<h4>Detect plant diseases using AI</h4>
+
+<p style = "font-size:18px;"><b>Plants Covered:</b> Apple • Blueberry • Cherry • Corn • Grape • Orange • Peach • Pepper • Potato • Raspberry • Soybean • Squash • Strawberry • Tomato</p>
+
+<p style = "font-size:16px;"><b>Instruction:</b> Upload clean image of the leaf</p>
+
+<p style = "font-size:17px;"><b>Note:</b> Model is not generalized properly due to lack of data</p>
+                
+<hr>
+</div>
+""", container=True)
+    
+    gr.Markdown("Upload below to detect disease and get information.")
+
+    with gr.Row():
+            image_input = gr.Image(type="pil", label="Upload Leaf Image")
+            output_text = gr.HTML(elem_id="output_box")
+
+    submit_btn = gr.Button("🔍 Analyze")
+
+    submit_btn.click(
+        fn=display_prediction,
+        inputs=image_input,
+        outputs=output_text,
+        show_progress="full"
+    )
+
+    gr.Markdown("""
+    ---
+    
+    <div style="text-align: center; font-size: 14px; color: gray;">
+    ⚠️ Model can predict wrong answers due to lack of data.
+    </div>
+    """)
+
+app.launch(inbrowser=True)
