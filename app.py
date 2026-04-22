@@ -34,7 +34,7 @@ def load_final_fixed_model(weights_path):
 
 # --- RUN IT ---
 # Use the .weights.h5 file path here
-weights_file = r"C:\Coding\AIML\DL Projects\Plant-Disease-Prediction\Plant_Disease_MobileNet_model_weights.weights.h5"
+weights_file = r"AIML\DL Projects\Plant-Disease-Prediction\Plant_Disease_MobileNet_model_weights.weights.h5"
 
 try:
     model = load_final_fixed_model(weights_file)
