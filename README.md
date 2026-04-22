@@ -131,15 +131,6 @@ The model predicts the disease class and provides additional information about t
 \## 📂 Project Structure
 
 
-
-```
-
-\## 📂 Project Structure
-
-
-
-```
-
 Plant-Disease-Detection/
 
 │
