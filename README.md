@@ -100,7 +100,7 @@ The model predicts the disease class and provides additional information about t
 
 
 
-\---
+---
 
 
 
@@ -124,7 +124,7 @@ The model predicts the disease class and provides additional information about t
 
 
 
-\---
+---
 
 
 
@@ -163,11 +163,11 @@ Plant-Disease-Detection/
 
 └── .gitattributes
 
-```
+\```
 
 
 
-\---
+---
 
 
 
@@ -187,7 +187,7 @@ Plant-Disease-Detection/
 
 
 
-\---
+---
 
 
 
@@ -205,7 +205,7 @@ Plant-Disease-Detection/
 
 
 
-\---
+---
 
 
 
@@ -221,7 +221,7 @@ Plant-Disease-Detection/
 
 
 
-\---
+---
 
 
 
@@ -237,7 +237,7 @@ Plant-Disease-Detection/
 
 
 
-\---
+---
 
 
 
@@ -253,7 +253,7 @@ The application is deployed using:
 
 
 
-\---
+---
 
 
 
