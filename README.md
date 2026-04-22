@@ -10,7 +10,7 @@ An end-to-end deep learning application that detects plant diseases from leaf im
 
 
 
-\---
+---
 
 
 
@@ -22,7 +22,7 @@ An end-to-end deep learning application that detects plant diseases from leaf im
 
 
 
-\---
+---
 
 
 
@@ -38,7 +38,7 @@ The model predicts the disease class and provides additional information about t
 
 
 
-\---
+---
 
 
 
@@ -62,7 +62,7 @@ The model predicts the disease class and provides additional information about t
 
 
 
-\---
+---
 
 
 
