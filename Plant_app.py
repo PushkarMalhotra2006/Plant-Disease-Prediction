@@ -156,4 +156,4 @@ with gr.Blocks(title="Plant Disease Detection",css="""
     </div>
     """)
 
-app.launch(inbrowser=True)
+app.launch()
