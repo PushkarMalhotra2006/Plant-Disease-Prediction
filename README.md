@@ -2,7 +2,7 @@
 
 
 
-\# 🌿 Plant Disease Detection using Deep Learning
+# 🌿 Plant Disease Detection using Deep Learning
 
 
 
@@ -14,7 +14,7 @@ An end-to-end deep learning application that detects plant diseases from leaf im
 
 
 
-\## 🚀 Live Demo
+## 🚀 Live Demo
 
 
 
@@ -26,7 +26,7 @@ An end-to-end deep learning application that detects plant diseases from leaf im
 
 
 
-\## 🧠 Project Overview
+## 🧠 Project Overview
 
 
 
@@ -42,7 +42,7 @@ The model predicts the disease class and provides additional information about t
 
 
 
-\## ✨ Features
+## ✨ Features
 
 
 
@@ -66,7 +66,7 @@ The model predicts the disease class and provides additional information about t
 
 
 
-\## 🪴 Supported Plants
+## 🪴 Supported Plants
 
 
 
@@ -104,7 +104,7 @@ The model predicts the disease class and provides additional information about t
 
 
 
-\## 🏗️ Tech Stack
+## 🏗️ Tech Stack
 
 
 
@@ -128,7 +128,7 @@ The model predicts the disease class and provides additional information about t
 
 
 
-\## 📂 Project Structure
+## 📂 Project Structure
 
 
 Plant-Disease-Detection/
@@ -171,7 +171,7 @@ Plant-Disease-Detection/
 
 
 
-\## ⚙️ How It Works
+## ⚙️ How It Works
 
 
 
@@ -191,7 +191,7 @@ Plant-Disease-Detection/
 
 
 
-\## 🧪 Model Details
+## 🧪 Model Details
 
 
 
@@ -209,7 +209,7 @@ Plant-Disease-Detection/
 
 
 
-\## ⚠️ Limitations
+## ⚠️ Limitations
 
 
 
@@ -225,7 +225,7 @@ Plant-Disease-Detection/
 
 
 
-\## 📸 Example Output
+## 📸 Example Output
 
 
 
@@ -241,7 +241,7 @@ Plant-Disease-Detection/
 
 
 
-\## 🚀 Deployment
+## 🚀 Deployment
 
 
 
@@ -257,7 +257,7 @@ The application is deployed using:
 
 
 
-\## 👨‍💻 Author
+## 👨‍💻 Author
 
 
 
